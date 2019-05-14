@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
+import GlobalStyle from './sytles/global';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Clone</h1>
-    </div>
+    <Fragment>
+      <GlobalStyle />
+      <Sidebar />
+    </Fragment>
   );
 }
 
